@@ -240,34 +240,422 @@
             <p>Không chỉ dừng lại ở những ưu đãi độc đáo từ Recyclable Waste. Bạn còn có cơ hội để đổi các ưu đãi đặc biệt đến từ các đối tác lớn, với đa dạng danh mục: Ẩm thực, Mua sắm, Giải trí, Làm đẹp – Sức khoẻ...và nhiều ưu đãi hấp dẫn khác để bạn
                 lựa chọn.</p>
         </div>
+
+        <section id="filter">
+            <div id="filter_button">
+                <a class="btn btn-primary active" data-filter="all">All</a>
+                <a class="btn btn-primary" data-filter="booking">Đặt Chỗ</a>
+                <a class="btn btn-primary" data-filter="shopping">Mua Sắm</a>
+                <a class="btn btn-primary" data-filter="food">Ẩm Thực </a>
+                <a class="btn btn-primary" data-filter="fashion">Thời Trang</a>
+                <a class="btn btn-primary" data-filter="travel">Du Lịch</a>
+                <a class="btn btn-primary" data-filter="entertainment">Giải Trí</a>
+                <a class="btn btn-primary" data-filter="medical">Y Tế</a>
+            </div>
+            <form action="" id="input_filter">
+                <span>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                <input type="text" placeholder="Tìm Kiếm....." id="search-item" autocomplete="off">
+            </form>
+            <div id="filter-data">
+                <div class="element_cakes" data-item="booking">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">500.000VNĐ</span>
+                            <img src="img/test/đoiiem/datcho1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 15% sushi</a>
+                                <i class="tab-icon fas fa-shopping-bag">-27/10/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>0 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="shopping">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">2.000.000VNĐ</span>
+                            <img src="img/test/đoiiem/shopping1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Phiếu giảm giá tại FPT Shop</a>
+                                <i class="tab-icon fas fa-shopping-bag">-05/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>1.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="travel">
+                    <div class="boxs">
+
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+                            <img src="img/test/đoiiem/travel1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Miễn Phí Đặt Phòng tại Vinper </a>
+                                <i class="tab-icon fas fa-shopping-bag">-09/07/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>0 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="medical">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+                            <img src="img/test/đoiiem/yte1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher 10% trên hóa đơn</a>
+                                <i class="tab-icon fas fa-shopping-bag">-27/10/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>0 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="food">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10.000VNĐ</span>
+                            <img src="img/test/đoiiem/food2.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <!-- <img src="img/test/đoiiem/doitaccc.jpg" class="img_thumb"> -->
+                        <div class="detail-boxs">
+
+                            <div class="types">
+
+                                <a href="#">Tặng 1 ly Cafe Đen Đá</a>
+                                <i class="tab-icon fas fa-shopping-bag">-03/02/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>500 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="entertainment">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">920.000VNĐ</span>
+                            <img src="img/test/đoiiem/gt2.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Vé Thăm Quan Du lịch Sinh Thái</a>
+                                <i class="tab-icon fas fa-shopping-bag">-14/07/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>920.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="shopping">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+                            <img src="img/test/đoiiem/fs1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 10% trên 1 sản phẩm</a>
+                                <i class="tab-icon fas fa-shopping-bag">-03/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>100.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="entertainment">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">15%</span>
+                            <img src="img/test/đoiiem/giaitri1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 15% đặt vé</a>
+                                <i class="tab-icon fas fa-shopping-bag">-13/07/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>490.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="shopping">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">15%</span>
+                            <img src="img/test/đoiiem/fs3.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 15% trên hóa đơn</a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/02/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>150.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="food">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">30%</span>
+                            <img src="img/test/đoiiem/food3.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 30% trên hóa đơn</a>
+                                <i class="tab-icon fas fa-shopping-bag">-10/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>300.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="booking ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+
+                            <img src="img/test/đoiiem/datcho4.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 10% Nhà Hàng Á Châu</a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>100.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="booking ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">Quà Tặng</span>
+                            <img src="img/test/đoiiem/dt1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Giảm 5% đến 30%</a>
+                                <i class="tab-icon fas fa-shopping-bag">-03/11/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>0 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="entertainment ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">500.00VNĐ</span>
+                            <img src="img/test/đoiiem/gt3.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher 500.000VNĐ</a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>500.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="entertainment ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">300.000VNĐ</span>
+
+                            <img src="img/test/đoiiem/giaitri1.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 300.000VNĐ</a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>300.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="booking ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+                            <img src="img/test/đoiiem/datcho5.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 15% </a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>150.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="booking ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">10%</span>
+                            <img src="img/test/đoiiem/ffffff.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 10%</a>
+                                <i class="tab-icon fas fa-shopping-bag">-28/12/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>100.000 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes" data-item="travel">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <span class="nhan">20%</span>
+                            <img src="img/test/đoiiem/dt6.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 20% </a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>200.00 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element_cakes " data-item="travel ">
+                    <div class="boxs">
+                        <div class="slides-img">
+                            <img src="img/test/đoiiem/datcho3.jpg" alt="1">
+                            <div class="overlays">
+                                <a href="#" class="buy-btn">Đổi Điểm Ngay</a>
+                            </div>
+                        </div>
+                        <div class="detail-boxs">
+                            <div class="types">
+                                <a href="#">Voucher giảm 20% BBQ</a>
+                                <i class="tab-icon fas fa-shopping-bag">-23/08/2022 </i>
+                                <div class="bottom">
+                                    <p> <i class="tab-icon fas fa-money-bill"></i>0 Điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script src="./js/filter_js.js "></script>
     </div>
     <!-- Footer -->
     <!-- Site footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
+    <footer class="site-footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-12 col-md-6 ">
                     <h6>Về Chúng Tôi</h6>
-                    <ul class="footer-links">
+                    <ul class="footer-links ">
                         <li>Thế hệ của chúng ta có tác động lớn tới môi trường bằng việc hạn chế các sản phẩm nhựa. Cùng Recyclable Waste tham gia hành trình kiến tạo thế giới xanh! #GenerationRestoration</li>
 
 
                     </ul>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
+                <div class="col-xs-6 col-md-3 ">
                     <h6>Dịch Vụ</h6>
-                    <ul class="footer-links">
-                        <li><a href="#">Tái chế và thu gom rác thải</a></li>
-                        <li><a href="#">Tích điểm và đổi thưởng</a></li>
-                        <li><a href="#">Sản phẩm thân thiệt với môi trường</a></li>
+                    <ul class="footer-links ">
+                        <li><a href="# ">Tái chế và thu gom rác thải</a></li>
+                        <li><a href="# ">Tích điểm và đổi thưởng</a></li>
+                        <li><a href="# ">Sản phẩm thân thiệt với môi trường</a></li>
 
                     </ul>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
+                <div class="col-xs-6 col-md-3 ">
                     <h6>Liên Hệ</h6>
-                    <ul class="footer-links">
+                    <ul class="footer-links ">
                         <li>Hotline: 0976 86 33 35 </li>
                         <li>Email: cuonglv.21ad@vku.udn.vn</li>
                         <li>Địa chỉ: 470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng</li>
@@ -276,20 +664,21 @@
             </div>
             <hr>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
-                        <a href="#">Recyclable Waste</a>.
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-8 col-sm-6 col-xs-12 ">
+                    <p class="copyright-text ">Copyright &copy; 2022 All Rights Reserved by
+                        <a href="# ">Recyclable Waste</a>.
                     </p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fab fa-twitter"></i></a></li>
+                <div class="col-md-4 col-sm-6 col-xs-12 ">
+                    <ul class="social-icons ">
+                        <li><a class="facebook " href="# "><i class="fab fa-facebook "></i></a>
+                        </li>
+                        <li><a class="twitter " href="# "><i class="fab fa-instagram "></i></a></li>
+                        <li><a class="dribbble " href="# "><i class="fab fa-google-plus-g "></i></a></li>
+                        <li><a class="linkedin " href="# "><i class="fab fa-twitter "></i></a></li>
                     </ul>
                 </div>
             </div>
